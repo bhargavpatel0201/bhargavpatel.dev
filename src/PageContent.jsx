@@ -107,6 +107,7 @@ const SECTION_CONTENT = {
     { title: "Job Portal Web Application", tech: "Python, Django", highlight: "GitHub", description: "Django job portal where recruiters post jobs and job seekers apply with resumes—includes role-based auth, profiles, search, and application tracking.", url: "https://github.com/bhargavpatel0201/JobPortal" },
     { title: "Inventory Management System", tech: "PHP, MySQL, HTML/CSS/JavaScript", highlight: "GitHub", description: "Full-stack project focused on MySQL database design and PHP frontend. Manages inventory, orders, and customer records with normalized tables, stored procedures, and efficient queries.", url: "https://github.com/bhargavpatel0201/InventoryManagementSystem" },
     { title: "Earthquake Prediction and Risk Analysis", tech: "Data Mining, Python, R", highlight: "Data mining & risk", description: "Data mining project analyzing historical earthquake data to identify patterns, predict magnitudes, and highlight high-risk regions for improved disaster preparedness.", url: "https://github.com/bhargavpatel0201/Earthquake-Prediction-and-Risk-Analysis" },
+    { title: "Chef-Centric Website Redesign", tech: "React, AI-Assisted Redesign", highlight: "Live Demo", description: "Redesigned Julius Silvert's chef-focused website in class using AI-assisted design and React implementation, with an emphasis on modern UI, visual hierarchy, and responsive layout.", url: "https://redesign-react.vercel.app/" },
   ],
   skills: {
     Languages: [
