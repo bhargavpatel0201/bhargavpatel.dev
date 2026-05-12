@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useState, useRef, lazy, Suspense } from "react"
 import { IconSun, IconMoon } from "./NavIcons"
-import profileImg from "./assets/Profile.PNG"
+import profileImg from "./assets/Profile.jpeg"
 
 const PageContent = lazy(() => import("./PageContent.jsx"))
 
@@ -132,22 +132,24 @@ export default function App() {
                 </div>
                 <div className="jules-hero-photo" aria-hidden={isProfileImgOk ? "false" : "true"}>
                   <div className="jules-hero-avatar" aria-label="Bhargav Patel profile photo">
-                    {isProfileImgOk ? (
-                      <img
-                        src={profileImg}
-                        alt="Bhargav Patel"
-                        loading="eager"
-                        decoding="async"
-                        fetchpriority="high"
-                        width={450}
-                        height={450}
-                        onError={() => setIsProfileImgOk(false)}
-                      />
-                    ) : (
-                      <div className="jules-hero-avatar-fallback" aria-hidden="true">
-                        <span>BP</span>
-                      </div>
-                    )}
+                    <div className="jules-hero-avatar-inner">
+                      {isProfileImgOk ? (
+                        <img
+                          src={profileImg}
+                          alt="Bhargav Patel"
+                          loading="eager"
+                          decoding="async"
+                          fetchpriority="high"
+                          width={450}
+                          height={450}
+                          onError={() => setIsProfileImgOk(false)}
+                        />
+                      ) : (
+                        <div className="jules-hero-avatar-fallback" aria-hidden="true">
+                          <span>BP</span>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>

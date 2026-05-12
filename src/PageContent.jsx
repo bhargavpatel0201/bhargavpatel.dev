@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { FaPython, FaJava, FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaGitAlt, FaGithub, FaInstagram, FaLinkedin, FaLinux, FaNetworkWired, FaCode, FaPhone, FaMapMarkerAlt } from "react-icons/fa"
+import { FaPython, FaJava, FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaGitAlt, FaGithub, FaInstagram, FaLinux, FaNetworkWired, FaCode, FaPhone, FaMapMarkerAlt } from "react-icons/fa"
 import { SiDjango, SiMysql, SiSqlite } from "react-icons/si"
 import { DiDatabase } from "react-icons/di"
 import { MdEmail } from "react-icons/md"
@@ -145,7 +145,6 @@ const SECTION_CONTENT = {
   },
   contact: [
     { label: "GitHub", url: "https://github.com/bhargavpatel0201", icon: FaGithub },
-    { label: "LinkedIn", url: "https://www.linkedin.com/in/bhargavpatel0201/", icon: FaLinkedin },
     { label: "Instagram", url: "https://www.instagram.com/bhargav0201/", icon: FaInstagram },
     { label: "Email", url: "mailto:bhargav.patel.ce@gmail.com", icon: MdEmail },
     { label: "Phone", url: "tel:+18565264244", icon: FaPhone },
@@ -342,7 +341,6 @@ export default function PageContent({ scrollToId }) {
           <nav className="jules-footer-connect">
             <span>Connect</span>
             <a href="mailto:bhargav.patel.ce@gmail.com">Email</a>
-            <a href="https://www.linkedin.com/in/bhargavpatel0201/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://www.instagram.com/bhargav0201/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <a href="https://github.com/bhargavpatel0201" target="_blank" rel="noopener noreferrer">GitHub</a>
           </nav>
